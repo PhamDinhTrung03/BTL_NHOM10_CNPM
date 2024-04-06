@@ -1,65 +1,16 @@
-/* .top{
-    width: 960px;
-    min-height: auto;
-    margin: 0px auto;
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.top a{
-    float: left;
-    display: block;
-    align-items: center;
-    padding: 5px 5px;
+body {
+    font-family: sans-serif;
+    background-color: #fff;
 }
 
-.top a.tag{
-    font-size: 20px;
-    margin-left: 1%;
-    margin-right: 2%;
-    text-align: center;
+header {
+    background-color: #333;
+    color: #fff;
 }
 
-.top .contain{
-    float: left;
-} */
-
-/*Thanh tìm kiếm*/
-.search{
-    --padding: 14px;
-    width: max-content;
-    display: flex;
-    align-items: center;
-    /* padding: var(--padding); */
-    border-radius: 28px;
-    background: #f6f6f6;
-    transition: boxshadow 0.2s;
-}
-
-.search:focus-within{
-    box-shadow: 0 0 2px rgba(0,0,0,0.75);
-}
-
-.search-input{
-    font-size: 16px;
-    font-family: 'Lexend', sans-serif;
-    color: #333333;
-    margin-left: var(--padding);
-    outline: none;
-    border: none;
-    background: transparent;
-}
-
-.search-input::placeholder{
-    color: rgba(0,0,0,0.5);
-}
-
-h1{
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-}
