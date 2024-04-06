@@ -61,6 +61,8 @@ main {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-section {
@@ -74,11 +76,6 @@ main {
 }
 
 .truyen-de-cu {
-    /* margin: 20px auto;
-    width: 80%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px; */
     display: flex;
     flex-wrap: wrap;
   }
@@ -124,3 +121,45 @@ main {
     font-size: 12px;
     color: #999;
   }
+
+  .danh-muc-truyen {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .the-loai {
+    margin-top: 10px;
+  }
+  
+  .danh-muc-truyen h2, .the-loai h2 {
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .danh-muc-truyen ul, .the-loai ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    
+  }
+  
+  .danh-muc-truyen ul li, .the-loai ul li {
+    display: block;
+    margin: 15px;
+  }
+  
+  .danh-muc-truyen ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .danh-muc-truyen ul li a:hover {
+    background-color: #f2f2f2;
+  }
+  
