@@ -49,6 +49,7 @@ header button {
 /* Main */
 main {
     background-color: #f6f6f6;
+    padding: 20px;
 }
 
 .left-section, .right-section {
@@ -103,7 +104,7 @@ main {
   
   .truyen img {
     width: 100%;
-    height: 150px;
+    height: 155px;
     margin-bottom: 10px;
   }
   
@@ -162,4 +163,50 @@ main {
   .danh-muc-truyen ul li a:hover {
     background-color: #f2f2f2;
   }
-  
+
+.truyen-moi-cap-nhat {
+  flex: 1;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.truyen-moi-cap-nhat h2 {
+  text-align: left;
+  font-size: 18px;
+  margin: 0;
+}
+
+.truyen-moi-cap-nhat ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.truyen-moi-cap-nhat ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.truyen-moi-cap-nhat ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.truyen-moi-cap-nhat ul li .date {
+  color: #777;
+  font-size: 12px;
+}
+
+.truyen-moi-cap-nhat ul li a:hover {
+  text-decoration: underline;
+}
+
