@@ -54,7 +54,7 @@ main {
 
 .left-section, .right-section {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
 }
 
 .top-bar {
@@ -147,17 +147,15 @@ main {
   }
   
   .danh-muc-truyen ul li, .the-loai ul li {
-    display: block;
-    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 12px;
   }
   
   .danh-muc-truyen ul li a {
     text-decoration: none;
     color: #333;
-    font-size: 14px;
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    font-size: 18px;
   }
   
   .danh-muc-truyen ul li a:hover {
@@ -210,3 +208,52 @@ main {
   text-decoration: underline;
 }
 
+.truyen-hay h2 {
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+}
+
+.truyen-hay ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.truyen-hay ul li {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.truyen-hay ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.truyen-hay ul li h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.truyen-hay ul li p {
+  margin: 5px 0;
+  color: #777;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+footer p {
+  margin: auto;
+}
