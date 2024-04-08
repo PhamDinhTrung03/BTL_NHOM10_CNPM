@@ -20,7 +20,7 @@ header {
 
 header .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 10px 20px;
 }
 
@@ -34,6 +34,7 @@ header input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-left: 500px;
 }
 
 header button {

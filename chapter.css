@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+}
+
+header input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 500px;
+}
+
+header button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chapter-wrapper {
+    max-width: 1000px; /* Đặt chiều rộng tối đa */
+    margin: 0 auto; /* Căn giữa trên trang */
+    padding: 0px 15px; /* Thêm padding bên trái và bên phải để tạo khoảng cách */
+}
+
+h1 {
+    text-align: center; /* Căn giữa tiêu đề h1 */
+    font-size: 32px;
+    color: green;
+    margin: auto;
+}
+
+h2 {
+    text-align: center; /* Căn giữa tiêu đề h2 */
+    font-size: 18px;
+    margin: auto;
+}
+
+.chapter-content {
+    line-height: 1.5; /* Đặt dòng cho văn bản dễ đọc */
+}
+
+.button {
+    text-align: center; /* Căn giữa nút */
+    margin: auto;
+}
+
+.button a {
+    margin: 0 10px; /* Tạo khoảng cách giữa các nút */
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+footer p {
+  margin: auto;
+}

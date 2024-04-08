@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header .container {
+    max-width: 1000px;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+}
+
+header input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 450px;
+}
+
+header button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Cài đặt chung */
+body {
+    font-family: sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Phần thông tin truyện */
+  .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .thong-tin-truyen {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .story-detail {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Phần ảnh bìa */
+  img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Danh sách chương */
+  .danh-sach-chuong {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #f00;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  footer p {
+    margin: auto;
+  }
